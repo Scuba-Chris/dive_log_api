@@ -5,5 +5,5 @@ class DiveLogSerializer(serializers.ModelSerializer):
     class Meta:
         model = DiveLog
         fields = [
-            'id', 'author', 'title', 'created_at',
+            'id', 'author', 'title', 'body', 'created_at',
         ]
